@@ -13,7 +13,8 @@ jobs:
     steps:
     - name: Download
       run: |
-        curl https://image.thum.io/get/width/1024/crop/768/https://youngwen.com/ -o youngwen.com.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://youngwen.com -o youngwen.com.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://akilar.top -o akilar.top.jpg
         curl https://image.thum.io/get/width/1024/crop/768/https://cjh0613.com/ -o cjh0613.com.jpg
         curl https://image.thum.io/get/width/1024/crop/768/https://blog.zhheo.com/ -o blog.zhheo.com.jpg  
         curl https://image.thum.io/get/width/1024/crop/768/https://sunboy.ltd -o sunboy.ltd.jpg
