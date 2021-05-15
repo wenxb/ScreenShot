@@ -18,7 +18,9 @@ jobs:
         curl https://image.thum.io/get/width/1024/crop/768/https://cjh0613.com/ -o cjh0613.com.jpg
         curl https://image.thum.io/get/width/1024/crop/768/https://blog.zhheo.com/ -o blog.zhheo.com.jpg  
         curl https://image.thum.io/get/width/1024/crop/768/https://sunboy.ltd -o sunboy.ltd.jpg
-        curl https://image.thum.io/get/width/1024/crop/768/https://www.snhere.com -o snhere.com.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://snhere.com -o snhere.com.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://blog.hai2020.cn -o blog.hai2020.cn
+        
         curl https://purge.jsdelivr.net/gh/wenxb/ScreenShot@gh-pages/*.*
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
