@@ -21,7 +21,8 @@ jobs:
         curl https://image.thum.io/get/width/1024/crop/768/https://snhere.com -o snhere.com.jpg
         curl https://image.thum.io/get/width/1024/crop/768/https://blog.hai2020.cn -o blog.hai2020.cn.jpg
         curl https://image.thum.io/get/width/1024/crop/768/https://blog.realwds.com -o blog.realwds.com.jpg
-        curl https://image.thum.io/get/width/1024/crop/768/https://https://spoience.com -o spoience.com.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://spoience.com -o spoience.com.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://www.dejavu.moe -o www.dejavu.moe.jpg
         
         curl https://purge.jsdelivr.net/gh/wenxb/ScreenShot@gh-pages/*.*
     - name: Deploy
